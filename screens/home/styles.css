@@ -1,0 +1,137 @@
+.container{
+    background-color: #13152A;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapperLogo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+.wallet{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.starIcon{
+    height: 70px;
+    width: 70px;
+}
+
+.wishWallet{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.title{
+    color: #fff;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttonAddToken{
+    background-color: #AA33B5;
+    border: 1px solid #AA33B5;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.informations{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.informationsTokens{
+    display: flex;
+    flex-direction: row;
+}
+
+.Balance{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
+
+p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+span{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.iconEdition{
+    height: 20px;
+    width: 20px;
+
+}
+
+.edit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.row{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 80px;
+}
+
+.containerInformationsToken{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.containerInformations{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

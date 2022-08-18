@@ -1,0 +1,131 @@
+.pageBackground{
+    background-color: #13152A;
+}
+
+
+.containerWishWallet{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+}
+.containerHeader{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.logoKlever{
+    height: 150px;
+    width: 150px;
+}
+
+.logoWishWallet{
+    height: 70px;
+    width: 70px;
+}
+.titleWish{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-end: 10px;
+}
+
+.textTitle{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.containerInputs{
+    margin: 0 auto;
+    height: 100%;
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.backAndAdd{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBack{
+    height: 25px;
+    width: 80px;
+    background-color: #646464;
+    border: 1px solid #646464;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back{
+    width: 50%;
+    height: 100%;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.addToken{
+    width: 50%;
+    height: 100%;
+
+}
+h3{
+    color: #fff;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+input{
+    max-width: 100%;
+    width: 98.5%;
+    height: 27px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+p{
+    color: #fff;
+    font: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+
+.buttonSave{
+    height: 25px;
+    width: 80px;
+    background-color: #AA33B5;
+    border: 1px solid #AA33B5;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.containerButtonSave{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}

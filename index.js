@@ -10,8 +10,8 @@ window.onload = () => {
             list.innerHTML +=`
             <div class="containerInformationsToken">
                 <div class="edit">
-                    <a href="../editToken/index.html?tokenid=${index}">
-                        <img src="../../public/iconEdition.svg" class="iconEdition">
+                    <a href="./screens/editToken/index.html?tokenid=${index}">
+                        <img src="./public/iconEdition.svg" class="iconEdition">
                     </a> 
                     <p>${element.Token}</p>
                 </div>
